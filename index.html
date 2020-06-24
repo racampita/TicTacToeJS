@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>
+            Welcome To My Website
+        </title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div style="text-align: center;">
+            <button onclick="newGame()" id="newGameButton">New Game</button>
+        </div>
+        
+        <!--<div id="mainBoard">-->
+            <div class="row">
+                <div class="spacer"></div>
+                <div class="spacer"></div>
+                <button class="board" id="00" onclick="xClicked(this.id)"></button><!--
+                --><button class="board" id="01" onclick="xClicked(this.id)"></button><!--
+                --><button class="board" id="02" onclick="xClicked(this.id)"></button>
+                <div class="spacer"></div>
+                <div class="spacer"></div>
+            </div>
+            <div class="row">
+                <div class="spacer"></div>
+                <div class="spacer"></div>
+                <button class="board" id="10" onclick="xClicked(this.id)"></button><!--
+                --><button class="board" id="11" onclick="xClicked(this.id)"></button><!--
+                --><button class="board" id="12" onclick="xClicked(this.id)"></button>
+                <div class="spacer"></div>
+                <div class="spacer"></div>
+            </div>
+            <div class="row">
+                <div class="spacer"></div>
+                <div class="spacer"></div>
+                <button class="board" id="20" onclick="xClicked(this.id)"></button><!--
+                --><button class="board" id="21" onclick="xClicked(this.id)"></button><!--
+                --><button class="board" id="22" onclick="xClicked(this.id)"></button>
+                <div class="spacer"></div>
+                <div class="spacer"></div>
+            </div>
+        <!--</div>-->
+        
+        
+        <script src="main.js"></script>
+    </body>
+</html>
